@@ -3,4 +3,6 @@ Systems Procurements, Installation & Integration, Media Publishing, Printing Tec
 Security Surveillance, Detectives and Consultancy Services Company that is poised to quench
 your thirst for prompt, quality service delivery with outstanding core values return on your
 Technology Investments; all within a reasonable budget.
-f
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eda7772f-f29c-449f-acf1-85a5e2e4e45e/deploy-status)](https://app.netlify.com/sites/aksol-global-web/deploys)

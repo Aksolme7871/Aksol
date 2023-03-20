@@ -5,4 +5,3 @@ your thirst for prompt, quality service delivery with outstanding core values re
 Technology Investments; all within a reasonable budget.
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/66d241ff-198c-4432-abce-c0452393d272/deploy-status)](https://app.netlify.com/sites/aksol-web/deploys)

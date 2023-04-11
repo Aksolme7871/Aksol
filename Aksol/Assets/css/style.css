@@ -374,6 +374,8 @@ img {
 .navbar .logo-image img {
   width: 124px;
   height: 80px;
+  border-radius: 50%;
+  border: 1px solid #191e47;
 }
 
 .navbar .logo-text {

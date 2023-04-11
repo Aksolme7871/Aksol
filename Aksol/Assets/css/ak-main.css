@@ -328,8 +328,8 @@ nav.open .hamburger-menu .line:nth-of-type(3) {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.hero p.par-heading {
-  font-size: 14px;
+.hero-main p.par-heading {
+  font-size: 20px;
   font-weight: 500;
   background-image: linear-gradient(
     43deg,
@@ -340,10 +340,11 @@ nav.open .hamburger-menu .line:nth-of-type(3) {
   background: -webkit-linear-gradient(to left, #cc66ff 0%, #ccffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #fff;
 }
 
-.hero .txt-color {
-  color: black;
+.hero-main .txt-color {
+  color: #fff;
   font-weight: 700;
 }
 .hero .par-txt {
@@ -355,17 +356,26 @@ nav.open .hamburger-menu .line:nth-of-type(3) {
   font-weight: 500;
   font-size: 14px;
 }
+
+.hero-main .heading-par-content p{
+  color: #fff;
+  margin-top: 30px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 img {
   max-width: 100%;
   height: auto;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .img-content img {
   border: 0;
-  vertical-align: middle;
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 .btn-click {

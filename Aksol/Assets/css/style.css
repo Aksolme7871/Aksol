@@ -39,6 +39,18 @@ html {
   height: 100%;
 }
 
+/* .gradient-bg-1 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fdf7f0),
+    color-stop(50%, #ffe9f7),
+    to(#efdff4)
+  );
+  background: linear-gradient(90deg, #fdf7f0 0%, #ffe9f7 50%, #efdff4 100%);
+} */
+
 body,
 p {
   color: #6c717b;
@@ -474,7 +486,6 @@ img {
   overflow: hidden;
   padding-top: 8rem;
   padding-bottom: 4em;
-  background: url(/Defaults/Aksol/Assets/img/banners/banner-bg.jpg);
   text-align: center;
 }
 
@@ -570,7 +581,7 @@ Projects Area CSS
 }
 
 .projects-area.with-black-background .section-title p {
-  color: #CDC4D9;
+  color: #cdc4d9;
 }
 
 .projects-area.with-black-background .container-fluid {
@@ -580,12 +591,12 @@ Projects Area CSS
 
 .projects-area.style-two-area .container-fluid {
   overflow: hidden;
-  left: calc((100% - 1320px)/2);
+  left: calc((100% - 1320px) / 2);
   position: relative;
 }
 
 .projects-item {
-  background-color: #2E2141;
+  background-color: #2e2141;
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 25px;
@@ -602,8 +613,8 @@ Projects Area CSS
 
 .projects-item .projects-image a img {
   border-radius: 15px;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .projects-item .projects-content {
@@ -621,13 +632,20 @@ Projects Area CSS
 }
 
 .projects-item .projects-content .projects-btn {
-  background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  background: radial-gradient(
+    circle,
+    #feb302,
+    #f8c600,
+    #eed900,
+    #e0ec00,
+    #cdff05
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  font-family: 'poppins', sans-serif;
-  -webkit-transition: .6s;
-  transition: .6s;
+  font-family: "poppins", sans-serif;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   position: relative;
 }
 
@@ -636,25 +654,32 @@ Projects Area CSS
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   left: 0;
   width: 20px;
   height: 1.5px;
-  background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  background: radial-gradient(
+    circle,
+    #feb302,
+    #f8c600,
+    #eed900,
+    #e0ec00,
+    #cdff05
+  );
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   border-radius: 5px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .projects-item:hover .projects-image a img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-filter: blur(2px);
-          filter: blur(2px);
+  filter: blur(2px);
 }
 
 .projects-item:hover .projects-content h3 a {
@@ -671,7 +696,7 @@ Projects Area CSS
 }
 
 .projects-item.bg-F2F1F3 {
-  background-color: #F2F1F3;
+  background-color: #f2f1f3;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -686,13 +711,20 @@ Projects Area CSS
   height: 0%;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background: radial-gradient(
+    circle,
+    #a66bff,
+    #c666ef,
+    #dd62df,
+    #ee61cf,
+    #fb64bf
+  );
   z-index: -1;
   opacity: 0;
   visibility: hidden;
   border-radius: 50%;
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .projects-item.bg-F2F1F3 .projects-content h3 a {
@@ -723,13 +755,27 @@ Projects Area CSS
 }
 
 .projects-item.bg-F2F1F3:hover .projects-content .projects-btn {
-  background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  background: radial-gradient(
+    circle,
+    #feb302,
+    #f8c600,
+    #eed900,
+    #e0ec00,
+    #cdff05
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .projects-item.bg-F2F1F3:hover .projects-content .projects-btn::before {
-  background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  background: radial-gradient(
+    circle,
+    #feb302,
+    #f8c600,
+    #eed900,
+    #e0ec00,
+    #cdff05
+  );
   opacity: 1;
   visibility: visible;
 }
@@ -747,14 +793,14 @@ Projects Area CSS
   background-color: #fff;
   color: #000;
   -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   font-size: 20px;
   font-weight: 600;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   margin-right: 15px;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   cursor: pointer;
 }
 
@@ -763,12 +809,26 @@ Projects Area CSS
 }
 
 .projects-filter-menu li:hover {
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background: radial-gradient(
+    circle,
+    #a66bff,
+    #c666ef,
+    #dd62df,
+    #ee61cf,
+    #fb64bf
+  );
   color: #fff;
 }
 
 .projects-filter-menu .filter.mixitup-control-active {
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background: radial-gradient(
+    circle,
+    #a66bff,
+    #c666ef,
+    #dd62df,
+    #ee61cf,
+    #fb64bf
+  );
   color: #fff;
 }
 
@@ -779,16 +839,23 @@ Projects Area CSS
 
 .single-projects-item::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: 0;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   visibility: hidden;
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background: radial-gradient(
+    circle,
+    #a66bff,
+    #c666ef,
+    #dd62df,
+    #ee61cf,
+    #fb64bf
+  );
   border-radius: 20px;
   z-index: 1;
 }
@@ -804,8 +871,8 @@ Projects Area CSS
 
 .single-projects-item .projects-image a img {
   border-radius: 20px;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .single-projects-item .projects-content {
@@ -816,8 +883,8 @@ Projects Area CSS
   padding: 30px;
   padding-bottom: 0;
   visibility: hidden;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   z-index: 9;
 }
 
@@ -836,13 +903,20 @@ Projects Area CSS
 }
 
 .single-projects-item .projects-content .projects-btn {
-  background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  background: radial-gradient(
+    circle,
+    #feb302,
+    #f8c600,
+    #eed900,
+    #e0ec00,
+    #cdff05
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  font-family: 'poppins', sans-serif;
-  -webkit-transition: .6s;
-  transition: .6s;
+  font-family: "poppins", sans-serif;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   position: relative;
 }
 
@@ -851,18 +925,25 @@ Projects Area CSS
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   left: 0;
   width: 20px;
   height: 1.5px;
-  background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  background: radial-gradient(
+    circle,
+    #feb302,
+    #f8c600,
+    #eed900,
+    #e0ec00,
+    #cdff05
+  );
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   border-radius: 5px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .single-projects-item .projects-content .projects-btn:hover {
@@ -882,9 +963,9 @@ Projects Area CSS
 
 .single-projects-item:hover .projects-image a img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-filter: blur(2px);
-          filter: blur(2px);
+  filter: blur(2px);
 }
 
 .single-projects-item:hover .projects-content {
@@ -892,15 +973,29 @@ Projects Area CSS
   visibility: visible;
   padding-bottom: 30px;
 }
+.prof-courses {
+  background: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.soft-skill .section-title {
+  background-color: #191e47;
+  margin-top: 30px;
+  border-radius: 15px 5px;
+  width: 18rem;
+}
+.prof-courses .section-title h2 {
+  color: #fff;
+}
 
 .projects-section-content {
   position: relative;
 }
 
 .projects-section-content .projects-bg-text {
-  color: #F7F7F8;
+  color: #f7f7f8;
   font-size: 95px;
-  font-family:'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   position: absolute;
   top: 0;
@@ -914,7 +1009,7 @@ Projects Area CSS
   font-weight: 600;
   display: inline-block;
   margin-bottom: 15px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .projects-section-content h3 {
@@ -928,7 +1023,14 @@ Projects Area CSS
   position: absolute;
   left: 0;
   top: 0;
-  background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  background: radial-gradient(
+    circle,
+    #feb302,
+    #f8c600,
+    #eed900,
+    #e0ec00,
+    #cdff05
+  );
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -941,8 +1043,6 @@ Projects Area CSS
 .projects-section-content .projects-section-btn {
   margin-top: 25px;
 }
-
-
 
 /*************************/
 /*       Back to top                 */
@@ -960,7 +1060,8 @@ Projects Area CSS
   outline: none;
   background-color: #44434a;
   cursor: pointer;
-  box-shadow:rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px, rgb(0 0 0 / 20%) 0px -3px 0px inset;
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px,
+    rgb(0 0 0 / 20%) 0px -3px 0px inset;
 }
 
 /*************************/
@@ -975,7 +1076,7 @@ Projects Area CSS
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
     color: #fff;
   }
-  .single-inner-card button{
+  .single-inner-card button {
     margin-bottom: 20px;
   }
 }
@@ -989,7 +1090,7 @@ Projects Area CSS
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
     color: #fff;
   }
-  .single-inner-card button{
+  .single-inner-card button {
     margin-bottom: 20px;
   }
 }
@@ -1004,7 +1105,7 @@ Projects Area CSS
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
     color: #fff;
   }
-  .single-inner-card button{
+  .single-inner-card button {
     margin-bottom: 20px;
   }
 }
@@ -1268,8 +1369,9 @@ Projects Area CSS
     width: 320px;
     margin-right: 1.75rem;
     vertical-align: top;
-  }  
-  .footer .footer-col.first h6, .second h6 {
+  }
+  .footer .footer-col.first h6,
+  .second h6 {
     background: linear-gradient(to bottom right, #ff66cc 0%, #0066ff 100%);
     font-size: 20px;
     font-weight: 800;
